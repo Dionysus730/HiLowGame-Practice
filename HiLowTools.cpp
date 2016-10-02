@@ -22,6 +22,8 @@ using namespace std; // standard c++ namespace
 ///////////////////////////////////////
 HiLowTools::HiLowTools()
 {
+    cout << "Instantiating an instance of HiLowTools" << endl;
+
     // initialize variables to something
 
 }//endmethod
@@ -32,6 +34,9 @@ HiLowTools::HiLowTools()
 ///////////////////////////////////////
 HiLowTools::~HiLowTools()
 {
+
+    cout << "Releasing instance of HiLowTools" << endl;
+
 }//endmethod
 
 
@@ -88,7 +93,7 @@ int HiLowTools::Guess()
 
    // case for too many tries
 
-   return(1);
+   return(0);
 
 } // endmethod
 
