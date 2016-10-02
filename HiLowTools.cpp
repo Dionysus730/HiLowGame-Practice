@@ -22,6 +22,7 @@ using namespace std; // standard c++ namespace
 ///////////////////////////////////////
 HiLowTools::HiLowTools()
 {
+    // initialize variables to something
 
 }//endmethod
 
@@ -31,7 +32,6 @@ HiLowTools::HiLowTools()
 ///////////////////////////////////////
 HiLowTools::~HiLowTools()
 {
-
 }//endmethod
 
 
@@ -40,6 +40,20 @@ HiLowTools::~HiLowTools()
 /////////////////////////////////////////////////
 void HiLowTools::SetMaxNumberOfGuesses()
 {
+    // loop for entry checking
+    for(int i=1; i <= 2; i++)
+    {
+
+        // prompt for max number of guesses
+
+        // if within range,exit loop
+
+        // if out of range, deal with this guy
+        switch(i)
+        {
+        }// endswitch
+
+    }//endfor
 
 }//endmethod
 
@@ -50,6 +64,10 @@ void HiLowTools::SetMaxNumberOfGuesses()
 void HiLowTools::Welcome()
 {
 
+   // show welcome message with number of guesses allowed
+
+   // Set a number between 1 and 100 and zero out the number of guesses so far
+
 } //endmethod
 
 ////////////////////////////////////
@@ -58,6 +76,19 @@ void HiLowTools::Welcome()
 ////////////////////////////////////
 int HiLowTools::Guess()
 {
+   // allocate variable for return value
+
+    // bump up number of tries
+
+   // get number from player
+
+   // if higher than target set return value to 1
+
+   // if lower than target set return value to 1
+
+   // case for too many tries
+
+   return(1);
 
 } // endmethod
 
@@ -67,6 +98,13 @@ int HiLowTools::Guess()
 ////////////////////////////////////
 void HiLowTools::Results()
 {
+   // case for winner
+
+   // case for loser
+
+   // blank line
+
+   // pause to let player read results
 
 }//endmethod
 
