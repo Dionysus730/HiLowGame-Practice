@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1475372905 source:c:\users\a0181925\documents\titan robotics\code\hilow\hilow\main.cpp
+	"HiLowTools.hpp"
+	<iostream>
+	<string>
+	<conio.h>
+
+1475284992 c:\users\a0181925\documents\titan robotics\code\hilow\hilow\hilow.hpp
+
+1475329804 source:c:\users\a0181925\documents\titan robotics\code\hilow\hilow\hilow.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<conio.h>
+	"HiLow.hpp"
+
+1475372562 source:c:\users\a0181925\documents\titan robotics\code\hilow\hilow\hilowtools.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<conio.h>
+	"HiLowTools.hpp"
+
+1475371796 c:\users\a0181925\documents\titan robotics\code\hilow\hilow\hilowtools.hpp
+
